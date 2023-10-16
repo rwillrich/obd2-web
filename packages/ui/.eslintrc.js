@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["custom/react-internal"],
+  extends: ["@obd2-web/custom/react-internal"],
 };

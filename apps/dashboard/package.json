@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@obd2-web/dashboard",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@obd2-web/ui": "*",
     "next": "^13.4.19",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "ui": "*"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.4.19",
-    "@types/node": "^17.0.12",
+    "@obd2-web/eslint-config-custom": "*",
+    "@obd2-web/tsconfig": "*",
+    "@types/node": "^20.8.6",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
-    "eslint-config-custom": "*",
-    "tsconfig": "*",
-    "typescript": "^4.5.3"
+    "typescript": "^5.2.2"
   }
 }
